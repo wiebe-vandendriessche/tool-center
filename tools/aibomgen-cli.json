@@ -1,0 +1,49 @@
+{
+    "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+    "specVersion": "2.0",
+    "tool": {
+        "name": "AIBoMGen CLI",
+        "publisher": "IDLab, Ghent University, imec",
+        "description": "A Go CLI tool that scans repositories for Hugging Face model usage, generates CycloneDX AI BOMs, validates, enriches, and merges AIBOMs with SBOMs.",
+        "repository_url": "https://github.com/idlab-discover/AIBoMGen-cli",
+        "capabilities": [
+            "AI/ML-BOM",
+            "SBOM"
+        ],
+        "availability": [
+            "OPEN_SOURCE"
+        ],
+        "functions": [
+            "AUTHOR",
+            "ANALYSIS",
+            "TRANSFORM"
+        ],
+        "transform": [
+            "BOM_SERIALIZATION_FORMAT",
+            "BOM_VERSION"
+        ],
+        "packaging": [
+            "COMMAND_LINE_UTILITY",
+            "LIBRARY",
+            "APPLICATION"
+        ],
+        "library": [
+            "GO"
+        ],
+        "platform": [
+            "LINUX",
+            "MAC",
+            "WINDOWS"
+        ],
+        "lifecycle": [
+            "POST-BUILD"
+        ],
+        "supportedStandards": [
+            "CYCLONEDX"
+        ],
+        "supportedLanguages": [
+            "PYTHON",
+            "JAVASCRIPT/TYPESCRIPT"
+        ]
+    }
+}

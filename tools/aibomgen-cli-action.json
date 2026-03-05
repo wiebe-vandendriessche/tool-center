@@ -1,0 +1,29 @@
+{
+    "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+    "specVersion": "2.0",
+    "tool": {
+        "name": "AIBoMGen CLI Action",
+        "publisher": "IDLab, Ghent University, imec",
+        "description": "A GitHub Action that generates a CycloneDX AI Bill of Materials for Hugging Face models referenced in a repository using AIBoMGen-cli.",
+        "repository_url": "https://github.com/CRACY-project/AIBoMGen-cli-action",
+        "capabilities": [
+            "AI/ML-BOM",
+            "SBOM"
+        ],
+        "availability": [
+            "OPEN_SOURCE"
+        ],
+        "functions": [
+            "AUTHOR"
+        ],
+        "packaging": [
+            "GITHUB_ACTION"
+        ],
+        "lifecycle": [
+            "POST-BUILD"
+        ],
+        "supportedStandards": [
+            "CYCLONEDX"
+        ]
+    }
+}
