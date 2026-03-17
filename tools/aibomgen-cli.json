@@ -4,7 +4,7 @@
     "tool": {
         "name": "AIBoMGen CLI",
         "publisher": "IDLab, Ghent University, imec",
-        "description": "A Go CLI tool that scans repositories for Hugging Face model usage, generates CycloneDX AI BOMs, validates, enriches, and merges AIBOMs with SBOMs.",
+        "description": "A Go CLI tool that scans repositories for Hugging Face model usage, generates CycloneDX AI BOMs, validates, checks completeness, enriches, and merges AIBOMs with SBOMs.",
         "repository_url": "https://github.com/idlab-discover/AIBoMGen-cli",
         "capabilities": [
             "AI/ML-BOM",
