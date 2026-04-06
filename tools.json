@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-03-17T09:49:21Z",
+  "last_updated": "2026-04-06T11:14:57Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -13721,6 +13721,32 @@
         "SPDX"
       ],
       "_fromFile": "vulert_vulnerability_scanner.json"
+    },
+    {
+      "name": "VulnDex",
+      "publisher": "VulnDex",
+      "website_url": "https://VulnDex.at",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "analysis": [
+        "LICENSE_REPORTING",
+        "SECURITY_VULNERABILITIES"
+      ],
+      "supportedLanguages": [
+        "JAVA",
+        "NODE.JS",
+        "PYTHON",
+        "PHP"
+      ],
+      "description": "VulnDex turns CycloneDX SBOMs into operational vulnerability management. It continuously maps components to new CVEs, adds context, and assigns findings to responsible teams to improve prioritization and reduce manual effort.",
+      "_fromFile": "vulndex.json"
     },
     {
       "name": "Vulnerabilities.io",
