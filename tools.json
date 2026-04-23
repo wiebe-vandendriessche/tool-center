@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-04-07T18:25:43Z",
+  "last_updated": "2026-04-23T13:32:22Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -6410,6 +6410,27 @@
       "cycloneDxVersion": [],
       "supportedLanguages": [],
       "_fromFile": "fossa.json"
+    },
+    {
+      "name": "FuseSoC",
+      "description": "Package manager and build tool for FPGA and HDL projects, including SPDX SBOM generation from IP metadata.",
+      "publisher": "Olof Kindgren",
+      "repository_url": "https://github.com/olofk/fusesoc",
+      "website_url": "https://fusesoc.net",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "supportedStandards": [
+        "PACKAGE_URL",
+        "SPDX"
+      ],
+      "_fromFile": "fusesoc.json"
     },
     {
       "name": "Gemnasium",
