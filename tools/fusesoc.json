@@ -1,0 +1,24 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "FuseSoC",
+    "description": "Package manager and build tool for FPGA and HDL projects, including SPDX SBOM generation from IP metadata.",
+    "publisher": "Olof Kindgren",
+    "repository_url": "https://github.com/olofk/fusesoc",
+    "website_url": "https://fusesoc.net",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "supportedStandards": [
+      "PACKAGE_URL",
+      "SPDX"
+    ]
+  }
+}
